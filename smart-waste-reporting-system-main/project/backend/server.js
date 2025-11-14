@@ -28,7 +28,7 @@ connectDB();
 // Security middleware
 app.use(helmet());
 const allowedOrigins = [
-  'https://smart-waste-reporting-system.vercel.app',
+  'https://swrs-8dno.vercel.app/',
   'http://localhost:3000',
   'http://localhost:5173'
 ];
